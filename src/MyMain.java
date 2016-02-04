@@ -1,3 +1,4 @@
+
 public class MyMain
 {
     public static void main(String[] args)
@@ -18,6 +19,12 @@ public class MyMain
         System.out.println(CodeCoolStudents.oldest);
         System.out.println(imi.id);
 
-
+        int szam1 = 10;
+        double szam2 = 2.2;
+        szam2 = szam1;
+        System.out.println(szam2);
+        szam2 = 2.2;
+        szam1 = (int)szam2;
+        System.out.println(szam1);
     }
 }
